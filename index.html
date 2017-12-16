@@ -9,7 +9,7 @@
 <body>
 
 <h1>Character &amp; Word analysis</h1>
-<h2>count per line</h2>
+<h2>a framework that analyzes each line of a textarea,<br/>counts their words and characters and compares their values</h2>
 
 <form>
 <textarea id="textarea-text" placeholder="type here.. .  .    .        ." style="width: 50%; height: 300px;" required>
@@ -22,28 +22,9 @@ Morbi ac sapien ac mi placerat iaculis. Nulla facilisi. Duis imperdiet est amet.
 Vivamus urna dolor, elementum pretium sapien quis, iaculis scelerisque volutpat.
 Aenean id arcu sodales eros feugiat vulputate. Aliquam tempus aliquam justo sed.
 Ut eu eleifend tellus. Aenean orci metus, mollis in libero ut, scelerisque amet.
-Proin nec consequat metus. Fusce purus sem, convallis ac nunc vel viverra fusce.</textarea><br/>
+Proin naec consequat metus. Fusce purus sem, convallis ac nunc vel viverra fusce.</textarea><br/>
 <input type="button" id="analyze-lines-post" value="Analyze My Lines">
 </form>
-
-<!--
-<pre>
-/** 80 character word range **/
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum metus.	// 80 char ~ 11 words
-Nulla vel porttitor dolor, quis placerat lorem. Maecenas purus enim, viverra id.	// 80 char ~ 12 words
-Nunc porttitor nisl id nunc vehicula, vitae pretium nisi porta. Nunc in posuere.	// 80 char ~ 13 words
-Etiam accumsan pretium mollis. Vivamus aliquet ultricies risus sed orci aliquam.	// 80 char ~ 11 words
-Nullam id molestie purus. Donec tincidunt posuere eros pretium varius. Nam amet.	// 80 char ~ 12 words
-Morbi ac sapien ac mi placerat iaculis. Nulla facilisi. Duis imperdiet est amet.	// 80 char ~ 13 words
-Vivamus urna dolor, elementum pretium sapien quis, iaculis scelerisque volutpat.	// 80 char ~ 10 words
-Aenean id arcu sodales eros feugiat vulputate. Aliquam tempus aliquam justo sed.	// 80 char ~ 12 words
-Ut eu eleifend tellus. Aenean orci metus, mollis in libero ut, scelerisque amet.	// 80 char ~ 13 words
-Proin nec consequat metus. Fusce purus sem, convallis ac nunc vel viverra fusce.	// 80 char ~ 13 words
-
-	// 80 characters yield a 10 - 16 word range using a pregenerated 'lorem ipsum' text
-	// for extra padding, assume 80 characters yields about 5 - 21 words per line
-</pre>
--->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="underscore.1.8.3.js"></script>
